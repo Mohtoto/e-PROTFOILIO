@@ -10,6 +10,7 @@
  
 }
 
+
 html{
 
     scroll-behavior: smooth;
@@ -93,7 +94,13 @@ li{
 
 .text--purple{
 
-    color:#6030b1;
+    /* background: rgb(88,66,25);
+    background: linear-gradient(150deg, rgba(88,66,25,1) 0%, rgba(0,0,1,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text; */
+    color: #584219;
+
 }
 
 section:nth-child(even){
@@ -125,6 +132,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     padding: 0 12px;
+    color: #584219;
 }
 
 .nav__link--list{
@@ -157,7 +165,7 @@ nav{
 
 .personal__logo{
     font-size: 24px;
-    color: #6030b1;
+    color: #584219;
     margin: 0 12px;
     font-weight: 700;
 }
@@ -174,6 +182,7 @@ nav{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+   
 }
 
 .about-me__info{
@@ -491,8 +500,8 @@ footer{
 
 .footer__logo--img{
 
-    width:70px ;
-    height:70px ;
+    width:100px ;
+    height:100px ;
 }
 
 .footer__social--list{
